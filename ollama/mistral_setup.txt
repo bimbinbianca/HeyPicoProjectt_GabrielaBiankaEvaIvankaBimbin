@@ -1,0 +1,3 @@
+# Local LLM Setup (Mistral Model)
+This project uses Mistral via Ollama as the local LLM backend
+Make sure you have Ollama installed and the Mistral model downloaded before running the project.
