@@ -75,5 +75,5 @@ http://127.0.0.1:8000/search?query=restaurant+jakarta
 ```
 ## Pict the Output
 ```markdown
-![HeyPicoProjectt_GabrielaBiankaEvaIvankaBimbin](Screenshot 2025-10-08 125903.png)
+![Pict the output](Screenshot 2025-10-08 125903.png)
 ```
