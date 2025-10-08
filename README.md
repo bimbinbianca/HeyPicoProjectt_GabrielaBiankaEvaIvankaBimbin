@@ -23,7 +23,7 @@ This project demonstrates how to integrate a local LLM model with the Google Map
 
 ## Project Structure
 ```bash
-HeyPicoTest/
+HeyPicoProjectt_GabrielaBiankaEvaIvankaBimbin/
 │
 ├── backend/
 │   ├── main.py              # FastAPI app (handles LLM + Google API integration)
@@ -33,6 +33,7 @@ HeyPicoTest/
 ├── ollama/                  # Local LLM setup (Mistral model)
 │    ├── mistral_setup.md
 │
+├── Screenshot 2025-10-08 125903.png
 └── README.md                # Project documentation
 ```
 
