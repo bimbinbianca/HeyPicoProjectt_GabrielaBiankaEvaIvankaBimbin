@@ -22,6 +22,7 @@ This project demonstrates how to integrate a local LLM model with the Google Map
     -  Direct Google Maps link
 
 ## Project Structure
+```bash
 HeyPicoTest/
 │
 ├── backend/
@@ -32,6 +33,8 @@ HeyPicoTest/
 ├── ollama/                  # Local LLM setup (Mistral model)
 │
 └── README.md                # Project documentation
+
+```
 
 ## .env Configuration
 GOOGLE_API_KEY=your_google_maps_api_key
