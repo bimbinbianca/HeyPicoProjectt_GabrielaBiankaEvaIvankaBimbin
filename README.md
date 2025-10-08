@@ -31,6 +31,7 @@ HeyPicoTest/
 │   ├── requirements.txt     # Dependencies
 │
 ├── ollama/                  # Local LLM setup (Mistral model)
+│    ├── mistral_setup.md
 │
 └── README.md                # Project documentation
 ```
