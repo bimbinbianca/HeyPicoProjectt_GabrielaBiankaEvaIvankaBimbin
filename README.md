@@ -44,6 +44,7 @@ OPENWEBUI_MODEL=mistral
 ```
 
 ## Running the App
+Before running the app, please read mistral_setup.md to install Ollama and Mistral. The file also contains instructions on how to install and run them. However, installing the Mistral model takes a long time because it has fairly large files.
 1.    Start Ollama & Open-WebUI:
 ```bash
 ollama serve
