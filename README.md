@@ -57,3 +57,19 @@ uvicorn main:app --reload
 http://127.0.0.1:8000/search?query=restaurant+jakarta
 ```
 
+## Example Output
+```json
+{
+  "prompt": "Find coffee shops near Jakarta",
+  "llm_result": "coffee shop jakarta",
+  "places_results": [
+    {
+      "name": "Tanamera Coffee",
+      "address": "Jl. Thamrin No. 11, Jakarta",
+      "location": {"lat": -6.194, "lng": 106.823},
+      "embed_url": "https://www.google.com/maps/embed/v1/place?key=...&q=Tanamera+Coffee",
+      "maps_link": "https://www.google.com/maps/search/?api=1&query=Tanamera+Coffee"
+    }
+  ]
+}
+```
