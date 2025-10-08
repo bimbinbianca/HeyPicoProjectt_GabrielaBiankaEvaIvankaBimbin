@@ -9,3 +9,27 @@ This project demonstrates how to integrate a local LLM model with the Google Map
 - Model Used: Mistral (can be replaced with any supported LLM)
 - External API: Google Maps Platform(Places API)
 - Environment: Local setup with .env configuration
+
+## How it Works
+1.  User Prompt : The user asks for a recommendation (e.g., "find sushi restaurants near Jakarta")
+2.  LLM Processing : The local LLM (Mistral) interprets the user prompt.
+3.  Google Maps Query : The backend uses the interpreted query to call Google Places API.
+4.  Results : Return a JSON response containing:
+    -  Place name
+    -  Address
+    -  Location
+    -  Embeded Google Map URL
+    -  Direct Google Maps link
+
+## Project Structure
+HeyPicoTest/
+│
+├── backend/
+│   ├── main.py              # FastAPI app (handles LLM + Google API integration)
+│   ├── .env                 # API keys and environment config
+│   ├── requirements.txt     # Dependencies
+│
+├── ollama/                  # Local LLM setup (Mistral model)
+│
+└── README.md                # Project documentation
+
