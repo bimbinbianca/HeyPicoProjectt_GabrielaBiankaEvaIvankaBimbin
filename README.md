@@ -36,10 +36,24 @@ HeyPicoTest/
 ```
 
 ## .env Configuration
+Create a .env file inside the backend folder:
 ```bash
 GOOGLE_API_KEY=your_google_maps_api_key
 OPENWEBUI_URL=http://localhost:11434/api/generate
 OPENWEBUI_MODEL=mistral
 ```
 
+## Running the App
+1.    Start Ollama & Open-WebUI:
+```bash
+ollama serve
+``` 
+2.    Run FastAPI
+```bash
+uvicorn main:app --reload
+```
+3.    Test Endpoint
+```arduino
+http://127.0.0.1:8000/search?query=restaurant+jakarta
+```
 
