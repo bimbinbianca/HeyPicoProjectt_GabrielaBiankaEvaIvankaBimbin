@@ -33,3 +33,10 @@ HeyPicoTest/
 │
 └── README.md                # Project documentation
 
+## .env Configuration
+GOOGLE_API_KEY=your_google_maps_api_key
+OPENWEBUI_URL=http://localhost:11434/api/generate
+OPENWEBUI_MODEL=mistral
+
+
+
